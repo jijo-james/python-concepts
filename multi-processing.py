@@ -12,10 +12,14 @@ def counter(num):
         count += 1
 
 
-a = Process(target=counter, args=(1000000000,))
+a = Process(target=counter, args=(500000000,))
 a.start()
 
+b = Process(target=counter, args=(500000000,))
+b.start()
+
 a.join()
+b.join()
 
 print(time.perf_counter(), " output of m-p")
 
