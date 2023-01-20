@@ -10,7 +10,7 @@ class Employee:
         self.pay = pay
         self.email = first + '.' + last + '@company.com'
 
-        self.number_of_employees += 1
+        number_of_employees += 1
         print(self.number_of_employees)
 
 
