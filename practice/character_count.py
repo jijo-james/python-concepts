@@ -16,3 +16,11 @@ def compress_string(s):
 input_str = "AA"
 output_str = compress_string(input_str)
 print(output_str)
+
+# test_cases
+# 1 AAAABBCCCDAA
+# 2 AAAAA
+# 3 ABCD
+# 4 AADDDDDD
+# 5 A
+# 6 ABCDABBC
