@@ -20,3 +20,8 @@ s = Solution()
 
 print(s.is_anagram('jijo', 'james')) 
 
+# solution 2
+# from collections import Counter
+
+# print (Counter('jijo') == Counter('jjio'))
+
