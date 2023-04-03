@@ -28,7 +28,7 @@ class Cars():
             try:
                 if value[0] > 0:
                     speed = value[0]/value[1]
-                    print(speed)
+                    #print(speed)
                 
                     if speed > 1:
                         power = value[2]/value[1]
@@ -37,7 +37,7 @@ class Cars():
                             pass
                     except:
                         print("Speed is {}, which is < 0".format(speed))
-                        power = value[2]/value[1]
+                    power = value[2]/value[1]
             except:
                 print("Distance is , which is a negative value")
             
@@ -47,4 +47,6 @@ class Cars():
 c = Cars()
 
 c.calculations(car)
+
+
 
