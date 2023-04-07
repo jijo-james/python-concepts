@@ -1,17 +1,23 @@
-class Solution:
+# class Solution:
 
-    def two_sum(self, numbers: list[int], target: int) -> list[int]:
-        previous_map = {}
+#     def two_sum(self, numbers: list[int], target: int) -> list[int]:
+#         previous_map = {}
 
-        for i, n in enumerate(numbers):
-            difference = target - n 
-            if difference in previous_map:
-                return [previous_map[difference], i]
+#         for i, n in enumerate(numbers):
+#             difference = target - n 
+#             if difference in previous_map:
+#                 return [previous_map[difference], i]
             
-            previous_map[n] = i
+#             previous_map[n] = i
         
-        return
+#         return
 
-s = Solution()
+# s = Solution()
 
-print(s.two_sum([1,2,3,4,5,6,7], 10)) 
+# print(s.two_sum([1,2,3,4,5,6,7], 10)) 
+
+x = 0
+add = lambda x, y : x+y
+print(x, add(x,5))
+
+print(x, add(x,5))
