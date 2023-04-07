@@ -129,5 +129,5 @@ def display_info(name, age):
     time.sleep(1)
     print('display_info ran with arguments ({}, {})'.format(name, age))
 
-display_info('Adharsh', 25)
+display_info('ALLEN', age=23)
 # The above line is equivalent to dispaly_info = my_logger(my_timer(display_info))

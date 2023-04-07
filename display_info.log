@@ -2,3 +2,10 @@ INFO:root:Ran with args: ('Tom', 22), and kwargs: {}
 INFO:root:Ran with args: ('Jijo', 25), and kwargs: {}
 INFO:root:Ran with args: ('Sajjad', 23), and kwargs: {}
 INFO:root:Ran with args: ('Adharsh', 25), and kwargs: {}
+INFO:root:Ran with args: ('Adharsh', 25), and kwargs: {}
+INFO:root:Ran with args: (), and kwargs: {'name': 'ALLEN', 'age': 25}
+INFO:root:Ran with args: (23,), and kwargs: {'name': 'ALLEN'}
+INFO:root:Ran with args: (23,), and kwargs: {'name': 'ALLEN'}
+INFO:root:Ran with args: ('ALLEN',), and kwargs: {'age': 23}
+INFO:root:Ran with args: (23,), and kwargs: {'name': 'ALLEN'}
+INFO:root:Ran with args: (23,), and kwargs: {'name': 'ALLEN'}

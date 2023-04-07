@@ -11,3 +11,8 @@ print('Python version : ', sys.version)
 # python --version
 #or
 # python -V
+
+import os
+
+home = os.path.dirname(__file__)
+print(os.path.join(home, "data"))

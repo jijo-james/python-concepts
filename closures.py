@@ -1,5 +1,5 @@
 import logging
-logging.basicConfig(filename='test.log', level=logging.INFO)
+logging.basicConfig( level=logging.INFO)
 
 def logger(func):
     def log_func(*args):

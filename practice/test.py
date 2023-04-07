@@ -20,8 +20,8 @@ car = {
 
 class Cars():
 
-    def __init__(self):
-        return
+    def __init__(self, car):
+        self.brand = car['key']
     
     def calculations(self, car):
         for key, value in car.items():
