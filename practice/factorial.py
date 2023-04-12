@@ -19,7 +19,7 @@
 
 
 
-# using if else
+# using loop
 
 num = int(input("Enter a number: "))
 
