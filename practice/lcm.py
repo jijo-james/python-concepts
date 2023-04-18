@@ -15,8 +15,8 @@
 #     return lcm
 
 
-# first_number = input("Enter a number: ")
-# second_number = input("Enter second number: ")
+# first_number = int(input("Enter a number: "))
+# second_number = int(input("Enter second number: "))
 
 # print(
 #     "LCM of {} and {} is {}".format(
