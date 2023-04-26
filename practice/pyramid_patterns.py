@@ -40,16 +40,34 @@
 # for i in range(rows, 0, -1):
 #     for j in range(0, i):
 #         print("* ", end=" ")
-    
+
 #     print("\n")
 
 
-# Problem 5: Program to print inverted half pyramid using numbers
+# # Problem 5: Program to print inverted half pyramid using numbers
+
+# rows = int(input("Enter number of rows: "))
+
+# for i in range(rows, 0, -1):
+#     for j in range(1, i+1):
+#         print(j, end=" ")
+
+#     print("\n")
+
+
+# Problem 6: Program to print pyramid using *
 
 rows = int(input("Enter number of rows: "))
 
-for i in range(rows, 0, -1):
-    for j in range(1, i+1):
-        print(j, end=" ")
-    
-    print("\n")
+k = 0
+
+for i in range(1, rows + 1):
+    for space in range(1, (rows - i) + 1):
+        print(end="  ")
+
+    while k != (2 * i - 1):
+        print("* ", end="")
+        k += 1
+
+    k = 0
+    print()
