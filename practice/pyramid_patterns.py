@@ -85,7 +85,7 @@
 #     for space in range(1, (rows-i)+1):
 #         print("  ", end="")
 #         count+=1
-    
+
 #     while k!=((2*i)-1):
 #         if count<=rows-1:
 #             print(i+k, end=" ")
@@ -94,20 +94,37 @@
 #             count1+=1
 #             print(i+k-(2*count1), end=" ")
 #         k += 1
-    
+
 #     count1 = count = k = 0
 #     print()
 
 
-# Problem 8: Program to print inverted pyramid using *
+# # Problem 8: Program to print inverted pyramid using *
+
+# rows = int(input("Enter number of rows: "))
+
+# for i in range(rows, 1, -1):
+#     for space in range(0, rows-i):
+#         print("  ", end="")
+#     for j in range(i, 2*i-1):
+#         print("* ", end="")
+#     for j in range(1, i-1):
+#         print("* ", end="")
+#     print()
+
+
+# Problem 9: Program to print Pascal's triangle
 
 rows = int(input("Enter number of rows: "))
+coef = 1
 
-for i in range(rows, 1, -1):
-    for space in range(0, rows-i):
-        print("  ", end="")
-    for j in range(i, 2*i-1):
-        print("* ", end="")
-    for j in range(1, i-1):
-        print("* ", end="")
+for i in range(1, rows + 1):
+    for space in range(1, rows - i + 1):
+        print(" ", end="")
+    for j in range(0, i):
+        if j == 0 or i == 0:
+            coef = 1
+        else:
+            coef = coef * (i - j) // j
+        print(coef, end=" ")
     print()
