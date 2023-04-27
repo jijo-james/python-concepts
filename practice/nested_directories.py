@@ -7,8 +7,15 @@
 # Path("/root/dirA/dirB").mkdir(parents=True, exist_ok=True)
 
 
-# method 2:
+# # method 2:
 
-import os
+# import os
 
-os.makedirs("/root/dirA/dirB")
+# os.makedirs("/root/dirA/dirB")
+
+
+# method 3:
+
+import distutils.dir_util
+
+distutils.dir_util.mkpath("/root/dirA/dirB")
