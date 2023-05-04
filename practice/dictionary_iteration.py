@@ -6,8 +6,14 @@
 # for key, value in dt.items():
 #     print(key, value)
 
-# method 2
+# # method 2
+# dt = {"a": "juice", "b": "grill", "c": "corn"}
+
+# for key in dt:
+#     print(key, dt[key])
+
+# method 3
 dt = {"a": "juice", "b": "grill", "c": "corn"}
 
-for key in dt:
-    print(key, dt[key])
+for key, value in dt.iteritems():
+    print(key, value)
