@@ -12,8 +12,17 @@
 # for key in dt:
 #     print(key, dt[key])
 
-# method 3
+# # method 3
+# dt = {"a": "juice", "b": "grill", "c": "corn"}
+
+# for key, value in dt.iteritems():
+#     print(key, value)
+
+# method 4
 dt = {"a": "juice", "b": "grill", "c": "corn"}
 
-for key, value in dt.iteritems():
-    print(key, value)
+for key in dt.keys():
+    print(key)
+
+for value in dt.values():
+    print(value)
