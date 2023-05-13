@@ -14,9 +14,16 @@
 # list_joined = [*list_1, *list_2]
 # print(list_joined)
 
-# method 3
+# # method 3
+# list_1 = [1, 'a']
+# list_2 = [1, 2, 3]
+
+# list_joined = list(set(list_1 + list_2))
+# print(list_joined)
+
+# method 4
 list_1 = [1, 'a']
 list_2 = [1, 2, 3]
 
-list_joined = list(set(list_1 + list_2))
-print(list_joined)
+list_2.extend(list_1)
+print(list_2)
