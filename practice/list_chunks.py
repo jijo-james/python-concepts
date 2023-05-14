@@ -10,8 +10,14 @@
 # my_list = [1,2,3,4,5,6,7,8,9]
 # print(list(split(my_list, chunk_size)))
 
-# method 2
-chunk_size = 2
+# # method 2
+# chunk_size = 2
+# my_list = [1,2,3,4,5,6,7,8,9]
+# list_chunked = [my_list[i:i + chunk_size] for i in range(0, len(my_list), chunk_size)]
+# print(list_chunked)
+
+# method 3
+import numpy as np
+
 my_list = [1,2,3,4,5,6,7,8,9]
-list_chunked = [my_list[i:i + chunk_size] for i in range(0, len(my_list), chunk_size)]
-print(list_chunked)
+print(np.array_split(my_list, 5))
