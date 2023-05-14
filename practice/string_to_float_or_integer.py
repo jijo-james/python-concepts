@@ -8,7 +8,17 @@
 
 # print(balance_int)
 
-# method 2
+
+# # method 2
+# balance_str = "1500.4"
+# balance_float = float(balance_str)
+
+# print(type(balance_float))
+
+# print(balance_float)
+
+
+# method 3
 balance_str = "1500.4"
 balance_float = float(balance_str)
 
