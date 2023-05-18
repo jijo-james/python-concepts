@@ -1,4 +1,4 @@
-# Python program to print without a newline
+# Python program to print output without a newline
 
 
 # print each statement on a new line
