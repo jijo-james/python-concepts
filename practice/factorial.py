@@ -1,7 +1,7 @@
 # Python program to find the factorial of a number provided by the user
-# using recursion
 
 
+# # using recursion
 # def factorial(x):
 
 #     if x == 1:
@@ -19,8 +19,7 @@
 
 
 
-# using loop
-
+# # using loop
 num = int(input("Enter a number: "))
 
 factorial = 1

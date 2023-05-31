@@ -24,6 +24,5 @@ from os import walk
 
 for root, dirs, files in walk("files"):
     for file in files:
-        
         if file.endswith(".txt"):
             print(file)
