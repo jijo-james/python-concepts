@@ -11,9 +11,19 @@
 #     print(file)
 
 
-# method 2
-from os import listdir
+# # method 2
+# from os import listdir
 
-for file in listdir("files"):
-    if file.endswith(".txt"):
-        print(file)
+# for file in listdir("files"):
+#     if file.endswith(".txt"):
+#         print(file)
+
+
+# method 3
+from os import walk
+
+for root, dirs, files in walk("files"):
+    for file in files:
+        
+        if file.endswith(".txt"):
+            print(file)
