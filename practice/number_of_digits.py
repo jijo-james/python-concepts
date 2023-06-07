@@ -2,13 +2,13 @@
 
 
 # # method 1
-# number = 3424
-# count = 0
+number = 3424
+count = 0
 
-# while number != 0:
-#     number //= 10
-#     count += 1
-# print(count)
+while number != 0:
+    number //= 10
+    count += 1
+print(count)
 
 
 # method 2
