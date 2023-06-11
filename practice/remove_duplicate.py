@@ -1,7 +1,14 @@
 # Python program to remove duplicate elements from a list
 
 
-# method1
-list_1 = [1, 2, 1, 4, 6]
+# # method1
+# list_1 = [1, 2, 1, 4, 6]
 
-print(list(set(list_1)))
+# print(list(set(list_1)))
+
+
+# method2
+list_1 = [1, 2, 1, 4, 6]
+list_2 = [7, 8, 2, 1]
+
+print(list(set(list_1 ^ set(list_2))))
