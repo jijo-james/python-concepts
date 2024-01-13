@@ -32,3 +32,5 @@ bye_fn = outer_func('Bye.....')
 hi_fn()
 bye_fn()
 """
+
+logging.
