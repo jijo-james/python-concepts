@@ -16,7 +16,7 @@ class Solution1:
 # Solution 2 - O(n)
 
 
-class Solution:
+class Solution2:
     def count_bits(self, n: int) -> list[int]:
         dp = [0] * (n + 1)
         offset = 1
