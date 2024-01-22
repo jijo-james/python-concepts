@@ -7,7 +7,7 @@ class Solution:
 
         while sell < list_count:
             if buy < sell:
-                profit = sell - buy
+                profit = price_list[sell] - price_list[buy]
                 max_profit = max(max_profit, profit)
             else:
                 buy = sell

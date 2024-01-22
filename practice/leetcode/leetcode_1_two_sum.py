@@ -10,7 +10,7 @@ class Solution:
             
             previous_map[n] = i
         
-        return
+        return []
 
 s = Solution()
 
